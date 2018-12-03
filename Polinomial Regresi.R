@@ -1,3 +1,5 @@
+17523184-17523153-17523119
+
 apbn <- read.csv(file="investasi.csv", header=TRUE, sep=",")
 apbn
 
