@@ -21,3 +21,15 @@ x <- with(org, seq(min(X3), max(X3), length.out=2000))
 y <- predict(poly_model, newdata = data.frame(X3 = x))
 lines(x, y, col = "red")
 
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Regresi linear :
+Persamaan 
+f(x) = 2.006e+03+8.973e-03
+Residual standard error: 3.678 on 144 degrees of freedom
+
+Regresi polinomial :
+Persamaan
+f(x) = 60000+73303+2.0193
+Residual standard error: 
+0.6041 on 6 degrees of freedom
