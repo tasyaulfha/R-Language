@@ -1,0 +1,5 @@
+library("matlib")
+A <- cbind(c(4, 2), c(-5, -3))
+powerMethod(A)
+B<-cbind(c(0,-2,-4),c(11,17,26),c(-5.-7,-10))
+powerMethod(B)
